@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+.rollup.cache
+coverage
+.vscode
+dist
+pnpm-lock.yaml
