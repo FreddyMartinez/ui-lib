@@ -14,6 +14,7 @@
   },
   "keywords": [],
   "author": "Freddy Martínez",
+  "repository": "https://github.com/FreddyMartinez/ui-lib",
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-env": "^7.22.10",
