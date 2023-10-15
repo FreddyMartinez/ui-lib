@@ -4,7 +4,7 @@ import { TextCardProps } from "./TextCard.types";
 export function TextCard({ items, title, footer }: TextCardProps) {
   return (
     <StyledDiv>
-      {title && <h4>{title}</h4>}
+      {title && <h2>{title}</h2>}
       <ul>
         {items.map((i) => (
           <li>{i}</li>
@@ -16,8 +16,7 @@ export function TextCard({ items, title, footer }: TextCardProps) {
 }
 
 const StyledDiv = styled.div`
-  width: "100%";
-  height: "100%";
-  background: "rgba(19, 126, 132, 0.10)";
-  borderradius: 26;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 5px #ccc;
 `;
