@@ -1,1 +1,2 @@
-export * from './TextCard/TextCard';
+export * from './text-card/TextCard';
+
