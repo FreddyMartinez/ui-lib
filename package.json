@@ -1,6 +1,6 @@
 {
   "name": "@freddymartinez/ui-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -59,6 +59,6 @@
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
-    "react-dom": "^17.0.0 || 18.0.0"
+    "react-dom": "^17.0.0 || ^18.0.0"
   }
 }
